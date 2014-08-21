@@ -2,9 +2,6 @@
 
 # A very simplistic Pegex parser for sexml
 
-BEGIN { $ENV{PERL_PEGEX_DEBUG} = 1 };
-
-use lib 'src/pegex-pm/lib';
 use Pegex;
 
 my $grammar = <<'...';
